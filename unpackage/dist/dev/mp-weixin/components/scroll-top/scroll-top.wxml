@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['scrollTop',['$event']]]]]}}" class="{{['scroll-top',(isShow)?'isShow':'']}}" bindtap="__e">返回顶部</view>

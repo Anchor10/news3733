@@ -1,0 +1,44 @@
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  height: 100rpx;
+  background: #fff;
+}
+.bottom-bar .nav-list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-top: 1px solid #eee;
+}
+.bottom-bar .nav-list .nav-item {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.bottom-bar .nav-list .nav-item .nav-icon {
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0 auto;
+}
+.bottom-bar .nav-list .nav-item .nav-text {
+  display: block;
+  text-align: center;
+  margin-top: 4rpx;
+  font-size: 20rpx;
+  color: #b6b6b6;
+}
+

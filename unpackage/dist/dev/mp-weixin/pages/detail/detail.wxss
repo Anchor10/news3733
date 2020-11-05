@@ -1,0 +1,40 @@
+.detail {
+  box-sizing: border-box;
+  padding: 0rpx 30rpx 120rpx;
+  overflow: hidden;
+  padding-bottom: 120rpx;
+  border-top: 1px solid #eee;
+}
+.detail .paragraph {
+  padding-bottom: 20rpx;
+}
+.detail-content .content-pic {
+  display: block;
+  width: 98% !important;
+  height: auto !important;
+  margin: 0 auto;
+}
+.detail-top {
+  padding: 20rpx 0;
+  border-bottom: 1px dashed #eee;
+  margin-bottom: 20rpx;
+}
+.detail-top .detail-title {
+  padding: 10rpx 0;
+  font-size: 44rpx;
+  line-height: 54rpx;
+  color: #181818;
+  font-weight: bold;
+}
+.detail-top .detail-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 10rpx;
+}
+.detail-top .detail-info .info-item {
+  font-size: 24rpx;
+  color: #aaa;
+  margin-right: 20rpx;
+}
+

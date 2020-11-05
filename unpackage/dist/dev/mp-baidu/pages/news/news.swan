@@ -1,0 +1,1 @@
+<view class="index"><news-list vue-id="1cdb3631-1" newsList="{{newsList}}"></news-list><view class="uni-tab-bar-loading"><uni-load-more vue-id="1cdb3631-2" contentText="{{loadingText}}" status="{{loadStatus}}"></uni-load-more></view></view>

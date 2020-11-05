@@ -1,0 +1,22 @@
+.scroll-top {
+  position: fixed;
+  right: 20rpx;
+  bottom: 40rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80rpx;
+  width: 80rpx;
+  height: 80rpx;
+  font-size: 24rpx;
+  color: #fff;
+  text-indent: -99999px;
+  background: #00c4c4 url(/static/images/return-top.png) center center no-repeat;
+  background-size: 60rpx 60rpx;
+  background-clip: padding-box;
+  border: 10rpx solid rgba(0, 196, 196, 0.2);
+  display: none;
+}
+.scroll-top.isShow {
+  display: block;
+}
+

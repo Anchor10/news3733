@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "3733游戏资讯",
+  "navigationBarBackgroundColor": "#00c4c4",
+  "navigationBarTextStyle": "white",
+  "component": true,
+  "usingComponents": {
+    "scroll-top": "/components/scroll-top/scroll-top",
+    "news-list": "/components/news-list/news-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

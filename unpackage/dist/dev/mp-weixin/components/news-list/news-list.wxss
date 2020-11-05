@@ -1,0 +1,67 @@
+.news-list {
+  background: #f5f5f5;
+  min-height: 100%;
+  overflow: hidden;
+  padding-bottom: 25rpx;
+}
+.news-list .news-item {
+  box-sizing: border-box;
+  width: 696rpx;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20rpx 27rpx;
+  margin-top: 25rpx;
+}
+.news-list .news-item .news-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+}
+.news-list .news-item .news-pic {
+  width: 640rpx;
+  margin: 0 auto;
+  border-radius: 8rpx;
+  overflow: hidden;
+  background: #f5f5f5;
+  margin-top: 20rpx;
+}
+.news-list .news-item .news-pic .pic {
+  display: block;
+  width: 100%;
+  height: 250rpx;
+}
+.news-list .news-item .news-desc {
+  font-size: 24rpx;
+  color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 60rpx;
+}
+.news-list .news-item .news-date {
+  font-size: 24rpx;
+  color: #848484;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.news-list .news-item .news-date .view-num {
+  position: relative;
+}
+.news-list .news-item .news-date .view-num:before {
+  content: '';
+  position: absolute;
+  left: -30rpx;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: block;
+  width: 20rpx;
+  height: 20rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAKlBMVEVHcEy2tra8vLy2tra2tra2tra2tra2tra5ubm2tra4uLi3t7e2tra2trZpGm/TAAAADXRSTlMAiwf0QrrpphXaJGxbyfJ5+wAAAR9JREFUKM9jYAADJsdI28tTRRQYkACX2F0wSFyAEOOovQsF1xvggpvvwoE1TEz9LhIogmqORRa8CjFA9S4KCAIL1qIKXgeJcd9FAxuAgs3oghaYusH6ue5igAUMjJiCAgxqmIJJDL6YglcYZDEFLzLEYgpeZZiLKXiTwRZT8DLDXSwAuyBY+zUYNxeiHWyRA9RhF1kgFoGdpLAWIniLCeIksBoHVohgAAvE8WBvBnCATbnZwArxJhuIusOgDbTi2iaGs5AAAQfdZQcGLp8jCxhYbCFBBwnki+BUxCQLDWRodCR6MDC0iMGjExagZslIEceMLYo572JJDOiC4GSjixbs4AR2FlUQnBSZUOMDkmhREwM0ebMhi8EyAkIlIssAAMRCEzERuEBXAAAAAElFTkSuQmCC) center center no-repeat;
+  background-size: 20rpx 20rpx;
+}
+

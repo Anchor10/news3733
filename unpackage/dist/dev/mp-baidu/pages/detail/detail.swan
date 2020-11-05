@@ -1,0 +1,1 @@
+<view class="detail"><view class="detail-top"><view class="detail-title">{{''+title+''}}</view><view class="detail-info"><view class="info-item">{{'发布时间: '+formatDate+''}}</view><view class="info-item">{{'阅读: '+onclick+''}}</view></view></view><rich-text class="detail-content" nodes="{{content}}"></rich-text></view>

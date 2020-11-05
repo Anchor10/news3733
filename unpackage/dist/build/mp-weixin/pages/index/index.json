@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "3733游戏",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "news-list": "/components/news-list/news-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

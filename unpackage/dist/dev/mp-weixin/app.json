@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/article/article",
+    "pages/index/index",
+    "pages/news/news",
+    "pages/huodong/huodong",
+    "pages/pingce/pingce",
+    "pages/gonglue/gonglue",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "3733游戏",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "dark"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap57.json"
+}

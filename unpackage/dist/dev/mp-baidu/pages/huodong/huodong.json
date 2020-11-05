@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "活动",
+  "enablePullDownRefresh": true,
+  "component": true,
+  "usingComponents": {
+    "news-list": "/components/news-list/news-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

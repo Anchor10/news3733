@@ -1,0 +1,33 @@
+{
+    "appInfo": {},
+    "appid": "15701842",
+    "appkey": "",
+    "condition": {
+        "swan": {
+            "current": 0,
+            "list": [
+                {
+                    "id": 0,
+                    "name": "test",
+                    "pathName": "pages/article/article",
+                    "query": "id=45292&interval=4000&autoplay=false"
+                }
+            ]
+        }
+    },
+    "host": "baiduboxapp",
+    "libVersion": "",
+    "preview": {
+        "packageId": 689774
+    },
+    "projectname": "news3733",
+    "setting": {
+        "urlCheck": true
+    },
+    "swan": {
+        "baiduboxapp": {
+            "extensionJsVersion": "1.13.1",
+            "swanJsVersion": "3.180.255-rc"
+        }
+    }
+}
